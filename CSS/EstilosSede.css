@@ -1,0 +1,64 @@
+
+#home
+{
+background-color: tomato;
+
+}
+
+#Tablita
+{
+	margin: 100px auto;
+	width: 600px
+}
+
+table{
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+th, td{
+	padding: 10px;
+
+}
+
+tr:nth-child(even){
+	background-color: #ddd
+}
+
+tr:hover td{
+	background-color: #369681;
+}
+
+#Encabezado
+{
+ background-color: tomato;
+ border-bottom: solid 5px black;
+}
+
+form {
+  position: relative;
+
+  width  : 740px;
+  height : 498px;
+  margin : 0 auto;
+
+  background: #FFF url(background.jpg);
+}
+
+h1 {
+  position : absolute;
+  font : 1em "typewriter", sans-serif;
+}
+
+#nombre {
+  position: absolute;
+  left : 50px;
+  top  : 35px;
+}
+
+#numeroSede {
+  position: absolute;
+  left : 50px;
+  top  : 65px;
+}

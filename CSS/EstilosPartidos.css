@@ -1,0 +1,64 @@
+
+#home 
+{
+background-color: tomato;
+
+}
+
+#Tablita
+{
+	margin: 100px auto;
+	width: 600px
+}
+
+table{
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+th, td{
+	padding: 10px;
+
+}
+
+tr:nth-child(even){
+	background-color: #ddd
+}
+
+tr:hover td{
+	background-color: #369681;
+}
+
+#Encabezado
+{
+ background-color: tomato;
+ border-bottom: solid 5px black;
+}
+h1 {
+  position : absolute;
+  font : 1em "typewriter", sans-serif;
+}
+
+#local {
+  position: absolute;
+  left : 150px;
+  top  : 200px;
+}
+#visita {
+  position: absolute;
+  left : 350px;
+  top  : 200px;
+}
+
+
+#puntos_local {
+  position: absolute;
+  left : 150px;
+  top  : 265px;
+}
+#puntos_visita {
+  position: absolute;
+  left : 350px;
+  top  : 265px;
+}

@@ -1,0 +1,29 @@
+body{
+  background-image: url('../img/fondo.jpg');
+}
+
+.navbar{
+  background-color: lightGreen;
+}
+
+.navbarA{
+  background-color: tomato;
+}
+
+/*cuando no se esta interectuado con estos: define norma link, norma visited*/
+.navbar-brand:link, .navbar-brand:visited{
+  color: black !important;
+}
+
+/* cuado el raton esta encima o activo*/
+.navbar-brand:hover, .navbar-brand:active{
+  color: gray !important;
+}
+.navbarA-brand:link, .navbarA-brand:visited{
+  color: black !important;
+}
+
+/* cuado el raton esta encima o activo*/
+.navbarA-brand:hover, .navbarA-brand:active{
+  color: black !important;
+}

@@ -1,0 +1,55 @@
+
+#home 
+{
+background-color: tomato;
+
+}
+
+#Tablita
+{
+	margin: 100px auto;
+	width: 600px
+}
+
+table{
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+th, td{
+	padding: 10px;
+
+}
+
+tr:nth-child(even){
+	background-color: #ddd
+}
+
+tr:hover td{
+	background-color: #369681;
+}
+
+#Encabezado
+{
+ background-color: tomato;
+ border-bottom: solid 5px black;
+}
+
+#nombre {
+  position: absolute;
+  left : 200px;
+  top  : 170px;
+}
+
+#ciudad {
+  position: absolute;
+  left : 200px;
+  top  : 200px;
+}
+
+#estado {
+  position: absolute;
+  left : 200px;
+  top  : 230px;
+}

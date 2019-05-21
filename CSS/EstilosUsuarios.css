@@ -1,0 +1,84 @@
+
+#home
+{
+background-color: tomato;
+
+}
+
+#Tablita
+{
+	margin: 100px auto;
+	width: 600px
+}
+
+table{
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+th, td{
+	padding: 10px;
+
+}
+
+tr:nth-child(even){
+	background-color: #ddd
+}
+
+tr:hover td{
+	background-color: #369681;
+}
+
+#Encabezado
+{
+ background-color: tomato;
+ border-bottom: solid 5px black;
+}
+
+#nombre {
+  position: absolute;
+  left : 200px;
+  top  : 170px;
+}
+
+#apPaterno {
+  position: absolute;
+  left : 200px;
+  top  : 200px;
+}
+
+#apMaterno {
+  position: absolute;
+  left : 200px;
+  top  : 230px;
+}
+
+#email {
+  position: absolute;
+  left : 200px;
+  top  : 260px;
+}
+
+#usuario{
+  position: absolute;
+  left : 200px;
+  top  : 290px;
+}
+
+#pass {
+  position: absolute;
+  left : 200px;
+  top  : 320px;
+}
+#tel {
+  position: absolute;
+  left : 200px;
+  top  : 350px;
+}
+
+#tipoUsuario {
+  position: absolute;
+  left : 200px;
+  top  : 380px;
+}
